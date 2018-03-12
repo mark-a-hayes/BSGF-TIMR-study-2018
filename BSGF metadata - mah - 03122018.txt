@@ -1,0 +1,28 @@
+Metadata and comments for the Hayes et al. paper "A generalizable informed curtailment model for reducing bat fatalities and improving operational flexibility at wind facilities". 
+
+Prepared by Mark A. Hayes, March 12, 2018. 
+
+The csv "bsgf carcass dataframe – mah - 03122018.csv" contains the dataframe used in the final analysis and includes the following information:
+
+Column A, "date": The date of carcass observation, expressed in the form MM/DD/YYYY (e.g., 7/15/2015).
+Column B, "pooled_c": The number of bat carcasses of all species (pooled species data) found at control turbines on a given day.  
+Column C, "pooled_t": The number of bat carcasses of all species (pooled species data) found at treatment turbines on a given day.  
+Column D, "laci_c": The number of hoary bat carcasses found at control turbines on a given day.  
+Column E, "laci_t": The number of hoary bat carcasses found at treatment turbines on a given day.
+Column F, "labo_c": The number of eastern red bat carcasses found at control turbines on a given day.  
+Column G, "labo_t": The number of eastern red bat carcasses found at treatment turbines on a given day.
+Column H, "lano_c": The number of silver-haired bat carcasses found at control turbines on a given day.  
+Column I, "lano_t": The number of silver-haired bat carcasses found at treatment turbines on a given day.
+Column J, "epfu_c": The number of big brown bat carcasses found at control turbines on a given day.  
+Column K, "epfu_t": The number of big brown bat carcasses found at treatment turbines on a given day.
+Column L, "mylu_c": The number of little brown bat carcasses found at control turbines on a given day.  
+Column M, "mylu_t": The number of little brown bat carcasses found at treatment turbines on a given day.
+Column N, "pesu_c": The number of tri-colored bat carcasses found at control turbines on a given day.  
+Column O, "pesu_t": The number of tri-colored bat carcasses found at treatment turbines on a given day.
+Row 80, “sum”: The sum of all carcasses found for a given category.  
+
+
+This analysis should be independently reproducible using the data provided in the csv, the R code in "BSGF fatality estimates using estimateN_custom - 03122018.R", 
+and following the methods section of the manuscript. Repetition of the analysis may result in slightly different results, though we repeated this analysis twice
+and both sets of runs resulted in identical average simulation results. The R code uses the R package 'Carcass', which is cited in the manuscript.  
+
