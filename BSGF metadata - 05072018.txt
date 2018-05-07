@@ -2,7 +2,7 @@ Metadata and comments for the Hayes et al. paper "A generalizable informed curta
 
 Prepared by Mark A. Hayes, March 12, 2018. 
 
-The csv "bsgf carcass dataframe ñ mah - 03122018.csv" contains the dataframe used in the final analysis and includes the following information:
+The csv "bsgf carcass dataframe ‚Äì mah - 03122018.csv" contains the dataframe used in the final analysis and includes the following information:
 
 Column A, "date": The date of carcass observation, expressed in the form MM/DD/YYYY (e.g., 7/15/2015).
 Column B, "pooled_c": The number of bat carcasses of all species (pooled species data) found at control turbines on a given day.  
@@ -19,7 +19,7 @@ Column L, "mylu_c": The number of little brown bat carcasses found at control tu
 Column M, "mylu_t": The number of little brown bat carcasses found at treatment turbines on a given day.
 Column N, "pesu_c": The number of tri-colored bat carcasses found at control turbines on a given day.  
 Column O, "pesu_t": The number of tri-colored bat carcasses found at treatment turbines on a given day.
-Row 80, ìsumî: The sum of all carcasses found for a given category.  
+Row 80, ‚Äúsum‚Äù: The sum of all carcasses found for a given category.  
 
 
 This analysis should be independently reproducible using the data provided in the csv, the R code in "BSGF fatality estimates using estimateN_custom - 03122018.R", 
