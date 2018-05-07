@@ -245,7 +245,8 @@ par(op)
 
 ################
 ##
-## Wilcoxon tests
+## Wilcoxon tests comparing paired control and treatment vectors of found carcasses for each day during the study
+## for pooled data and each species.
 ##
 ################
 
@@ -253,7 +254,7 @@ daily = read.table(file.choose(), header=TRUE, sep=",")
 attach(daily)
 summary(daily)
 
-labo_t
+labo_t # Checking to make sure datafrane is attached
 
 wilcox.test(pooled_c, pooled_t, paired=TRUE)
 wilcox.test(labo_c, labo_t, paired=TRUE)
