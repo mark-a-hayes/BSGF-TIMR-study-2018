@@ -220,7 +220,7 @@ v2 <- c(1,2,4,3,5,6,7,8,10,9,11,12,13,14,15,17,16,18,19,20)
 
 wilcox.test(v1,v2,paired=TRUE) # where v1 and v2 are numeric
 
-# ...and very different vecors
+# ...and very different vectors
 
 v3 <- c(41:60)
 
