@@ -1,8 +1,8 @@
-Metadata and comments for data and R code associated with the manuscript Hayes et al.  "A generalizable informed curtailment model for reducing bat fatalities and improving operational flexibility at wind facilities". 
+Metadata and comments for data and R code associated with the manuscript Hayes et al. (2019) "A smart curtailment approach for reducing bat fatalities and curtailment time at wind energy facilities". 
 
-Prepared by Mark A. Hayes, May 7, 2018. 
+Updated by Mark A. Hayes, February 15, 2019. 
 
-The csv "Daily carcasses bsgf - 05072018.csv" contains the dataframe used in the final analysis and includes the following information:
+The csv "Daily carcasses bsgf.csv" contains the dataframe used in the final analysis and includes the following information:
 
 Column A, "date": The date of carcass observation, expressed in the form MM/DD/YYYY (e.g., 7/15/2015).
 Column B, "pooled_c": The number of bat carcasses of all species (pooled species data) found at control turbines on a given day.  
@@ -19,7 +19,7 @@ Column L, "mylu_c": The number of little brown bat carcasses found at control tu
 Column M, "mylu_t": The number of little brown bat carcasses found at treatment turbines on a given day.
 
 
-This analysis should be independently reproducible using the data provided in the csv files, the R code in "Fatality estimates bsgf - 05072018.R", and following the methods section of the manuscript. Given that the results are based on Monte Carlo simulations, repetition of the analysis may result in slightly different results, though we repeated this analysis twice and both sets of runs resulted in identical average simulation results. The R code uses the R package 'Carcass', which is cited in the manuscript.  
+This analysis should be independently reproducible using the data provided in the csv files, the R code in "Fatality estimates bsgf.R", and following the methods section of the manuscript. Given that the results are based on Monte Carlo simulations, repetition of the analysis may result in slightly different results, though we repeated this analysis twice and both sets of runs resulted in identical average simulation results. The R code uses the R package 'Carcass', which is cited in the manuscript.  
 
-The "Carcass distances bsgf - 05072018.csv" file containes information about the distance of carcasses from turbines and sorts the number of carcasses by 5 meter increments from each associated turbine. The "Fatality estimates bsgf - 05072018.R" file walks through the distance analysis. 
+The "Carcass distances bsgf.csv" file containes information about the distance of carcasses from turbines and sorts the number of carcasses by 5 meter increments from each associated turbine. The "Fatality estimates bsgf.R" file walks through the distance analysis. 
 
