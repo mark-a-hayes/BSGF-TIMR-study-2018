@@ -23,3 +23,7 @@ This analysis should be independently reproducible using the data provided in th
 
 The "Carcass distances bsgf.csv" file containes information about the distance of carcasses from turbines and sorts the number of carcasses by 5 meter increments from each associated turbine. The "Fatality estimates bsgf.R" file walks through the distance analysis. 
 
+The files associated with this GitHub repository are also available in the following Zenodo repository and associated DOI:
+
+https://doi.org/10.5281/zenodo.2566564
+
